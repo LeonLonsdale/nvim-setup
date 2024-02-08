@@ -4,9 +4,23 @@ This is just for personal use so I won't be maintaining it as a distro or anythi
 
 [Nerd Chat](https://discord.gg/YK4F8sSbBx)
 
+![Example](https://www.github.com/LeonLonsdale/nvim-setup/example.png)
+
 # Install
 
 Download the zip, extract the contents to wherever nvim expects to find a config on your system.
+
+The setup uses Warp terminal. Get it with Homebrew `brew install --cask warp`
+With Catppucin theming:
+```
+mkdir -p ~/.warp/themes/
+curl --output-dir ~/.warp/themes -LO https://raw.githubusercontent.com/catppuccin/warp/main/dist/catppuccin_latte.yml
+curl --output-dir ~/.warp/themes -LO https://raw.githubusercontent.com/catppuccin/warp/main/dist/catppuccin_frappe.yml
+curl --output-dir ~/.warp/themes -LO https://raw.githubusercontent.com/catppuccin/warp/main/dist/catppuccin_macchiato.yml
+curl --output-dir ~/.warp/themes -LO https://raw.githubusercontent.com/catppuccin/warp/main/dist/catppuccin_mocha.yml
+```
+And [starship prompts](https://starship.rs/)
+
 
 # Keybinds
 
