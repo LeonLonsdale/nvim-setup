@@ -4,7 +4,7 @@ This is just for personal use so I won't be maintaining it as a distro or anythi
 
 [Nerd Chat](https://discord.gg/YK4F8sSbBx)
 
-![Example](https://www.github.com/LeonLonsdale/nvim-setup/blob/main/example.png?raw=true)
+<img src="https://github.com/LeonLonsdale/nvim-setup/blob/main/example.png" alt="example" />
 
 # Install
 
