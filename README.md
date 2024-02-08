@@ -26,38 +26,38 @@ And [starship prompts](https://starship.rs/)
 
 Leader is set to `spacebar`
 
-leader, q = close buffer
-leader, Q = force close buffer
-leader, w = write file
-leader, W = force write file
-leader, e = edit
-leader, E = back to explorer mode
+- leader, q = close buffer
+- leader, Q = force close buffer
+- leader, w = write file
+- leader, W = force write file
+- leader, e = edit
+- leader, E = back to explorer mode
 
 ## nvim-tree
 
-control + n = toggle nvim-tree
+- control + n = toggle nvim-tree
 
 ## Searching
 
-leader, s, f = search files
-leader, s, h = search help
-leader, s, g = search grep
-leader, s, r = search recently opened files / buffers
-leader, s, w = search for the word under the cursor
-leader, s, b = search buffered files
+- leader, s, f = search files
+- leader, s, h = search help
+- leader, s, g = search grep
+- leader, s, r = search recently opened files / buffers
+- leader, s, w = search for the word under the cursor
+- leader, s, b = search buffered files
 
 ## Git
 
-leader, g, o = open LazyGit
-leader, g, f = find git files
+- leader, g, o = open LazyGit
+- leader, g, f = find git files
 
 ## Code management
 
-leader, c, f = format
-leader, c, h = hover info for word under cursor
-leader, c, d = definition of word under cursor
-leader, c, a = see code actions
-leader, c, r = see references
+- leader, c, f = format
+- leader, c, h = hover info for word under cursor
+- leader, c, d = definition of word under cursor
+- leader, c, a = see code actions
+- leader, c, r = see references
 
 # Plugins
 
@@ -81,4 +81,4 @@ leader, c, r = see references
 
 # Theme
 
-[Catppuccin-mocha](https://www.github.com/catppuccin/nvim)
+- [Catppuccin-mocha](https://www.github.com/catppuccin/nvim)
