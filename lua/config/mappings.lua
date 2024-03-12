@@ -20,6 +20,7 @@ require('which-key').register({
 	['<leader>c'] = { name = '[C]ode', _ = 'which_key_ignore' },
 	['<leader>s'] = { name = '[S]earch', _ = 'which_key_ignore' },
 	['<leader>g'] = { name = '[G]it', _ = 'which_key_ignore' },
+	['<leader>d'] = { name = '[D]ap', _ = 'which_key_ignore' },
 })
 
 ------------------------------------------------------------------------
@@ -59,3 +60,9 @@ vim.keymap.set('n', '<leader>ch', function() vim.lsp.buf.hover() end, { desc = "
 vim.keymap.set('n', '<leader>cd', function() vim.lsp.buf.definition() end, { desc = "[C]ode [D]efinition" })
 vim.keymap.set('n', '<leader>ca', function() vim.lsp.buf.code_action() end, { desc = "[C]ode [A]ctions" })
 vim.keymap.set('n', '<leader>cr', function() vim.lsp.buf.references() end, { desc = "[C]ode [R]eferences" })
+
+-- DAP
+vim.keymap.set("n", "<Leader>dt", ":DapToggleBreakpoint<CR>")
+vim.keymap.set("n", "<Leader>dc", ":DapContinue<CR>")
+vim.keymap.set("n", "<Leader>dx", ":DapTerminate<CR>")
+vim.keymap.set("n", "<Leader>do", ":DapStepOver<CR>")
